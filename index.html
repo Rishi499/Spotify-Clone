@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add icon in your website -->
+    <link rel="icon" href="./Spotify_Images/Spotify_Primary_Logo.png" />
+    <!-- Adding Font-Awesome <cdnjs> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <!-- First Box for Home and Search -->
+      <div class="sidebar-nav">
+        <!-- Inserting Spotify Logo -->
+        <div class="logo">
+          <a href="#"
+            ><img src="./Spotify_Images/logo-new.png" alt="Spotify Logo"
+          /></a>
+        </div>
+        <!-- Inserting Home and Search button -->
+        <ul>
+          <li>
+            <a href="#">
+              <!-- This span is for icon -->
+              <span><i class="fa-solid fa-house fa-beat"></i></span>
+              <!-- This span is for element like Home, About, Search -->
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fa-solid fa-magnifying-glass fa-spin"></i></span>
+              <span>Search</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Second Box for Library -->
+      <div class="sidebar-nav box2">
+        <!-- Inserting Your-Library -->
+        <ul>
+          <li>
+            <a href="#">
+              <span><i class="fa-solid fa-bars fa-flip"></i></span>
+              <span class="library">Your Library</span>
+            </a>
+          </li>
+          <li>
+            <!-- This slide is for box-2 which have scrolling -->
+            <div class="sidebar-scroll">
+              <!-- This is for playlist -->
+              <div class="create-playlist">
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+              </div>
+              <!-- This is for podcast -->
+              <div class="create-podcast">
+                <h4>Let's find some podcast to follow</h4>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- This part is for Privacy -->
+        <div class="privacy">
+          <ul>
+            <li>
+              <a href="#">Legal</a>
+              <a href="#">Safety & Privacy</a>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Cookies</a>
+              <a href="#">About Ads</a>
+              <a href="#">Accessibility</a>
+            </li>
+            <li>
+              <a href="#">Cookies</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- This part is for English Button -->
+        <div class="eng-button">
+          <button>English</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
